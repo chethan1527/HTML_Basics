@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Car Page</title>
+    <style>
+        /* CSS Styles */
+        * {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            background-color: #FFE5CC; /* Light warm background color */
+        }
+        
+        header {
+            background-color: #3f51b5; /* Changed header background color */
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            justify-content: space-between;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        
+        #navbar {
+            align-items: start;
+            display: flex;
+            align-items: center;
+        }
+        
+        button {
+            display: flex;
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        }
+        
+        button:hover {
+            background-color: #45a049;
+        }
+        
+        p {
+            font-size: 20px;
+            font-family: 'Times New Roman', Times, serif;
+            line-height: 1.5;
+            color: #333;
+        }
+        
+        .main {
+            display: flex;
+            justify-content: center;
+            margin-top: 50px;
+        }
+        
+        .card {
+            width: 300px;
+            padding: 20px;
+            margin-right: 30px;
+            border-radius: 10px;
+            background-color: #fff; /* Changed card background color */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: box-shadow 0.3s;
+        }
+        
+        .card:hover {
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div id="navbar">
+            <h3 class="one">CarShow.com</h3>
+            <nav>
+                <button>Sign Up</button>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container">
+        <p>Cars come in different types and styles, each offering unique features and driving experiences. From compact city cars to powerful sports cars and rugged off-road vehicles, there's a car for every need and preference.</p>
+    </div>
+
+    <div class="main">
+        <div class="card">
+            <b>Sedans:</b><br>
+            <p>Sedans are popular for their comfortable rides and spacious interiors. They typically have four doors and ample trunk space, making them ideal for daily commuting and family outings.</p>
+        </div>
+
+        <div class="card">
+            <b>SUVs:</b><br>
+            <p>Sport Utility Vehicles (SUVs) are known for their versatility and off-road capabilities. They offer higher ground clearance and optional four-wheel drive, making them suitable for adventurous driving and outdoor activities.</p>
+        </div>
+
+        <div class="card">
+            <b>Sports Cars:</b><br>
+            <p>Sports cars are designed for performance and speed. They often feature powerful engines, aerodynamic designs, and advanced handling systems. Sports cars deliver thrilling driving experiences on both the road and the track.</p>
+        </div>
+    </div>
+
+</body>
+
+</html>
